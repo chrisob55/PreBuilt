@@ -9,6 +9,6 @@ public struct Foo {
         return "Bar executed"
     }
     public func bang() -> String {
-        return "Bang executed"
+        return "Using built"
     }
 }
