@@ -17,4 +17,7 @@ public struct Foo {
     public func ghr() -> String {
         return "GHR executed"
     }
+    public func binary() -> String {
+        return "Binary executed"
+    }
 }

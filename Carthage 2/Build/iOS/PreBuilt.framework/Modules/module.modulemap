@@ -1,0 +1,11 @@
+framework module PreBuilt {
+  umbrella header "PreBuilt.h"
+
+  export *
+  module * { export * }
+}
+
+module PreBuilt.Swift {
+    header "PreBuilt-Swift.h"
+    requires objc
+}
