@@ -8,11 +8,11 @@
   "tvOS" : [
 
   ],
-  "commitish" : "1.0.3",
+  "commitish" : "04ae9e1fc2a76f3c69072df48c6cfdeb6732cafc",
   "iOS" : [
     {
       "name" : "PreBuilt",
-      "hash" : "ce2f24329ce34ccc1b6cbab0f43ef861b75028aeaf9497b435c01324e1bacd70",
+      "hash" : "5e02c75df36f305be723039c1015e77c7082ebd1d7399776e772c549e40d83cf",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]
