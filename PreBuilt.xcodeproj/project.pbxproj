@@ -10,6 +10,7 @@
 		DF26E34F2359B80600922677 /* PreBuilt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF26E3452359B80600922677 /* PreBuilt.framework */; };
 		DF26E3542359B80600922677 /* PreBuiltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26E3532359B80600922677 /* PreBuiltTests.swift */; };
 		DF26E3562359B80600922677 /* PreBuilt.h in Headers */ = {isa = PBXBuildFile; fileRef = DF26E3482359B80600922677 /* PreBuilt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF26E3602359B87100922677 /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26E35F2359B87100922677 /* Foo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		DF26E34E2359B80600922677 /* PreBuiltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreBuiltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF26E3532359B80600922677 /* PreBuiltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreBuiltTests.swift; sourceTree = "<group>"; };
 		DF26E3552359B80600922677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF26E35F2359B87100922677 /* Foo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				DF26E3482359B80600922677 /* PreBuilt.h */,
 				DF26E3492359B80600922677 /* Info.plist */,
+				DF26E35F2359B87100922677 /* Foo.swift */,
 			);
 			path = PreBuilt;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					DF26E3442359B80600922677 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					DF26E34D2359B80600922677 = {
 						CreatedOnToolsVersion = 10.3;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF26E3602359B87100922677 /* Foo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		DF26E35A2359B80600922677 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -357,6 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cob.PreBuilt;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +372,7 @@
 		DF26E35B2359B80600922677 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +397,7 @@
 		DF26E35D2359B80600922677 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PreBuiltTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +415,7 @@
 		DF26E35E2359B80600922677 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PreBuiltTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
