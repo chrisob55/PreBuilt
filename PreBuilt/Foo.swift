@@ -8,8 +8,8 @@
 
 import Foundation
 
-open class Foo {
-    open func bar() -> String {
+public class Foo {
+    public func bar() -> String {
         return "Bar executed"
     }
 }
