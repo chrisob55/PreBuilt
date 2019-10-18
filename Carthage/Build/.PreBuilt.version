@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.0.3",
+  "iOS" : [
+    {
+      "name" : "PreBuilt",
+      "hash" : "ce2f24329ce34ccc1b6cbab0f43ef861b75028aeaf9497b435c01324e1bacd70",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}

@@ -8,4 +8,7 @@ public struct Foo {
     public func bar() -> String {
         return "Bar executed"
     }
+    public func bang() -> String {
+        return "Bang executed"
+    }
 }
