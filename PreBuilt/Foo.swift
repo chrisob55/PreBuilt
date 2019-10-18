@@ -20,4 +20,7 @@ public struct Foo {
     public func binary() -> String {
         return "Binary executed"
     }
+    public func boom() -> String {
+        return "Boom executed"
+    }
 }
